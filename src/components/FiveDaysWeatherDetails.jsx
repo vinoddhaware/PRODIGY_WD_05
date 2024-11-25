@@ -14,7 +14,7 @@ const FiveDaysWeatherDetails = ({loading, city}) => {
         {
           city.map((curForcast, index) =>{
             return (
-              <div key={index} className='text-white shadow-[10px_10px_0px_black] mt-4 sm:h-32 w-[80%] bg-black/60 rounded-xl text-center sm:flex sm:justify-around items-center'>
+              <div key={index} className='text-white shadow-[5px_5px_5px_black] p-4 mt-4 sm:h-32 w-[70%] sm:w-[90%] bg-black/60 rounded-xl text-center sm:text-[10px] md:text-[16px] sm:flex sm:justify-around items-center space-y-3'>
               <div>
                   <ul>
                     <li> {curForcast.day.condition.text} </li>
@@ -28,7 +28,7 @@ const FiveDaysWeatherDetails = ({loading, city}) => {
                     <li> {curForcast.day.maxwind_kph} km/h </li>
                   </ul>
               </div>
-              <div>
+              <div className='flex justify-center'>
                 <img src={curForcast.day.condition.icon} alt="" />
               </div>
             </div>

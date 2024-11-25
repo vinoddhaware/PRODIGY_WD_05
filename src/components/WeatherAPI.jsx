@@ -27,7 +27,7 @@ const WeatherAPI = () => {
   if(loading)return <h1> Loading... </h1>
 
   return (
-    <div className='h-screen space-y-2 bg-[url(https://images.unsplash.com/photo-1561471026-0bbb77535d25?w=1350&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D)] sm:bg-center sm:bg-cover  bg-[80%] poppins-extralight'>
+    <div className='h-screen space-y-2 poppins-extralight'>
      
       <Searchbar search = {search} setSearch = {setSearch} />
      

@@ -4,6 +4,7 @@ import { FaTemperatureLow } from "react-icons/fa6";
 import { PiCoffeeLight } from "react-icons/pi";
 import { MdOutlineVisibility } from "react-icons/md";
 import { GiDespair } from "react-icons/gi";
+import { FaBoltLightning } from "react-icons/fa6";
 
 const WeatherDetails = ({loading, city}) => {
    
@@ -29,13 +30,13 @@ const WeatherDetails = ({loading, city}) => {
                 </ul>
             </div>
             <div className='flex justify-center items-center'>
-                <ul className='text-[10px]sm:text-sm font-semibold text-center text-white space-y-2'>
-                    <li className='flex justify-around items-center space-x-2'>  <PiCoffeeLight /> Feels like: <span className='text-[10px] sm:text-xs'> {city.current.feelslike_c}&deg; </span> </li>
-                    <li className='flex justify-around items-center space-x-2'> <FaWind /> wind: <span className='text-[10px] sm:text-xs'> {city.current.wind_kph} km/h </span> </li>
-                    <li className='flex justify-around items-center space-x-2'> <FaTemperatureLow /> Humadity: <span className='text-[10px] sm:text-xs'> {city.current.humidity} % </span> </li>
-                    <li className='flex justify-around items-center space-x-2'> <MdOutlineVisibility /> visibilty: <span className='text-[10px] sm:text-xs'> {city.current.vis_km} km/h </span> </li>
-                    <li className='flex justify-around items-center space-x-2'> <GiDespair /> Air pressure: <span className='text-[10px] sm:text-xs'> {city.current.pressure_mb} mBar </span> </li>
-                    <li className='flex justify-around items-center space-x-2'> <img src="/images/uv.png" alt="uv" className='size-5' /> Ultra-voilet: <span className='text-[10px] sm:text-xs'> {city.current.uv} </span>  </li>
+                <ul className='text-[10px] sm:text-sm font-semibold text-center text-white space-y-2'>
+                    <li className='flex justify-around items-center space-x-2'>  <PiCoffeeLight /> Feels like: <span className='text-[8px] sm:text-xs'> {city.current.feelslike_c}&deg; </span> </li>
+                    <li className='flex justify-around items-center space-x-2'> <FaWind /> wind: <span className='text-[8px] sm:text-xs'> {city.current.wind_kph} km/h </span> </li>
+                    <li className='flex justify-around items-center space-x-2'> <FaTemperatureLow /> Humadity: <span className='text-[8px] sm:text-xs'> {city.current.humidity} % </span> </li>
+                    <li className='flex justify-around items-center space-x-2'> <MdOutlineVisibility /> visibilty: <span className='text-[8px] sm:text-xs'> {city.current.vis_km} km/h </span> </li>
+                    <li className='flex justify-around items-center space-x-2'> <GiDespair /> Air pressure: <span className='text-[8px] sm:text-xs'> {city.current.pressure_mb} mBar </span> </li>
+                    <li className='flex justify-around items-center space-x-2'> <FaBoltLightning /> Ultra-voilet: <span className='text-[8px] sm:text-xs'> {city.current.uv} </span>  </li>
                 </ul>
             </div>
       </div>
