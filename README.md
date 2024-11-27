@@ -1,8 +1,5 @@
-# React + Vite
+<h1 align="center"> Wheather App </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![wheather-app](https://github.com/user-attachments/assets/5884c1ee-6e42-4255-b396-d396c7acb9fd)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3 align="center"> <a href="https://vinoddhaware.github.io/PRODIGY_WD_05/"> Visit -> </a> </h3>
